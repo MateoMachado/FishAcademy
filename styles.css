@@ -1,0 +1,25 @@
+.content{width: 100%; max-width: 1160px; margin: 0 auto;}
+
+.content .box-row{height: 100px; display: flex; flex-direction: row; padding: 5px;}
+.content .box-row .box{height: 100%; box-sizing: border-box; border: 1px solid black; margin: 5px;}
+
+.content .box-row.first-row .box.first{width: 25%;}
+.content .box-row.first-row .box.second{width: 35%;}
+.content .box-row.first-row .box.third{width: 40%;}
+
+.content .box-row.second-row .box.first{width: 16%;}
+.content .box-row.second-row .box.second{width: 23%;}
+.content .box-row.second-row .box.third{width: 23%;}
+.content .box-row.second-row .box.fourth{width: 38%;}
+
+.content .box-row.third-row .box.first{width: 34%;}
+.content .box-row.third-row .box.second{width: 21%;}
+.content .box-row.third-row .box.third{width: 45%;}
+
+.content .box-row.fourth-row .box.first{width: 15%;}
+.content .box-row.fourth-row .box.second{width: 12%;}
+.content .box-row.fourth-row .box.third{width: 41%;}
+.content .box-row.fourth-row .box.fourth{width: 32%;}
+
+.content .box-row.fifth-row .box.first{width: 33%;}
+.content .box-row.fifth-row .box.second{width: 66%;}
